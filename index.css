@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  font-family: "Dancing Script" !important ;
+  font-weight: 400 !important;
+  font-size: 3rem !important;
+}
+
+.world p {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: rgb(125, 124, 123);
+}
+.world h1 {
+  font-family: "Playpen Sans";
+}
+.carousel-item {
+  height: 1000px !important;
+}
+.carousel-item h5 {
+  color: rgb(110, 206, 221);
+  font-size: 2rem;
+}
+main {
+  background-color: rgba(75, 69, 69, 0.175);
+}
+.card-tout {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  padding: 0 200px;
+  gap: 60px;
+  text-align: center;
+}
+.fin {
+  font-family: "Oswald" !important;
+  color: rgb(177, 109, 109);
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
